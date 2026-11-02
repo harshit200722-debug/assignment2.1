@@ -1,11 +1,12 @@
-name=Assignment-1.1.md
-Assignment 1.1 — How a Website Works[cite: 1]
-Task: Explain in a single paragraph how a website opens on the screen after typing a URL.[cite: 1]
+name=Assignment-2.1.md
+Assignment 2.1 — First HTML Page[cite: 6]
+Task: Create a basic HTML webpage with a title and headings.[cite: 6]
 What to do:
 
-1. Understand the basic roles of browser, client, server, and database.[cite: 1]
-2. Write the meanings of HTTP and HTTPS.[cite: 1]
-3. Explain the request-response cycle.[cite: 1]
-4. Write the differences between a static and a dynamic website.[cite: 1]
-5. Open Chrome DevTools and inspect requests in the Network tab of any website.[cite: 1]
-Submission: An explanatory paragraph and a screenshot of the Network tab.[cite: 1]
+1. Create an `index.html` file.[cite: 6]
+2. Use `<!DOCTYPE html>`, `html`, `head`, and `body` elements.[cite: 6]
+3. Set the page title to "My First Webpage".[cite: 6]
+4. Add a main heading and at least 3 subheadings.[cite: 6]
+5. Use HTML comments and proper indentation.[cite: 6]
+6. Verify by opening the page in a browser.[cite: 6]
+Submission: The `index.html` file and a browser screenshot.[cite: 6]
