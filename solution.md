@@ -1,15 +1,40 @@
-Part 1: Explanatory Paragraph
-When you type a URL into your web browser (the client), it triggers a request-response cycle by sending an HTTP (Hypertext Transfer Protocol) or securely encrypted HTTPS request across the internet to the server where the website lives. For a static website, the server simply responds by sending pre-written HTML, CSS, and JavaScript files directly back to the client. However, if it is a dynamic website, the server first communicates with a database to retrieve specific, up-to-date data (like user profiles or live feeds) and builds the webpage on the fly before sending the final code back. Once the browser receives this response, it translates the code into the visual website that opens on your screen.
+Here is the complete HTML code you need for your index.html file, followed by instructions on how to capture your screenshot.
 
+Part 1: The index.html Code
+Copy the code below and paste it into your index.html file inside Visual Studio Code. It includes the required structure, title, headings, proper indentation, and HTML comments.
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+<body>
+    <!-- Main page heading -->
+    <h1>Welcome to My First Webpage</h1>
+
+    <!-- First subheading -->
+    <h2>About Me</h2>
+    <p>This is a short paragraph about who I am and why I am learning to code.</p>
+
+    <!-- Second subheading -->
+    <h2>My Hobbies</h2>
+    <p>Here I will list the things I enjoy doing in my free time.</p>
+
+    <!-- Third subheading -->
+    <h2>My Goals</h2>
+    <p>These are my goals for learning web development this year.</p>
+</body>
+</html>
 Part 2: How to get your Screenshot
-To fulfill the second part of your assignment, you'll need to take a screenshot of the Network tab on your own computer. Here is exactly how to do it:
+To fulfill the visual part of your assignment:
 
-Open Google Chrome and go to any website (e.g., wikipedia.org).
+In Visual Studio Code, make sure you have saved the index.html file (Ctrl + S on Windows or Cmd + S on Mac).
 
-Right-click anywhere on the page and select Inspect (or press Ctrl + Shift + I on Windows / Cmd + Option + I on Mac).
+Right-click anywhere inside the code and select Open with Live Server (or double-click the file in your computer's file explorer to open it directly).
 
-In the panel that opens, click on the Network tab at the top. (If you don't see it, click the >> arrows to reveal hidden tabs).
+The webpage will open in your default web browser, displaying the title in the tab and the text on the screen.
 
-With the Network tab open, refresh the page (F5 or Ctrl + R). You will see a waterfall of files (requests) loading in the panel.
-
-Take a screenshot of this entire window showing the list of network requests and save it to submit with your paragraph.
+📸 Take a screenshot of your entire browser window showing the rendered headings and the browser tab that says "My First Webpage".
